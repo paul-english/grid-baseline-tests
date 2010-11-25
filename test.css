@@ -1,11 +1,4 @@
-/* cool colors
-    background: rgba(244, 119, 35, .5);
-    background: rgba(36, 244, 119, .5);
-    background: rgba(119, 36, 244, .5);
-*/
-
-  /* Resets */
-
+/* Resets */
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
 p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
 img, ins, q, small, strong, sub, sup, dl, dt, dd, ol, ul, li, 
@@ -26,41 +19,48 @@ figure {position: relative;}
 figure img {width: 100%;}
 
 /* Util classes */
-
 .inline {
     display: inline-block;
 }
+
 .underline {
     border-bottom: 4px #000 solid;
     margin-bottom: 20px; /* preserve baseline of elements below */
 }
+
 .left {
     float: left;
 }
+
 .right {
     float: right;
 }
+
 .clear {
     clear: both;
 }
+
 .clear-left {
     clear: left;
 }
+
 .clear-right {
     clear: right;
 }
+
 .text-left {
     text-align: left;
 }
+
 .text-right {
     text-align: right;
 }
+
 .text-center {
     text-align: center;
 }
 
-  /* Typography presets */
-
+/* Typography presets */
 body {
     font: 16px/24px Helvetica, Arial, sans-serif;
 }
